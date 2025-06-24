@@ -1,0 +1,28 @@
+.navbar {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: #0307dc;
+}
+
+.navbar .logo {
+    width: 100px;
+}
+
+.categories {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.categories li {
+    padding: 10px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.categories li:hover {
+    color: #aaa;
+}
